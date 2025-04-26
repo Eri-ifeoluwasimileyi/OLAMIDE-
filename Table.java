@@ -12,12 +12,7 @@ public class Table {
 	
 		System.out.println(counterA + "   " + counterB + "     " + exponent);
 
-		counterA++; //this is the issue with doing increment like this
-					//you're incrementing the wrong counter
-					//it should be countera = countera + 1
-					//we have to get used to using ++ or --
-					//Change your naming convention so you can properly
-					//diferentiate between each counter 
+		counterA++;  
 
 		counterB++; 
 		

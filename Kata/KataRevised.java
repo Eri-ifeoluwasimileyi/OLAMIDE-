@@ -123,7 +123,32 @@ public class Kata {
 
 
 
+	public static boolean primeNumber(int number) {
 
+		
+		int primeCounter = 0;
+
+		if(number <= 1) {
+			return false;
+		
+		}
+		else {
+		
+
+			for(int counter = 1; counter <= number; counter = counter + 1){
+
+				if(number % counter == 0) primeCounter++;
+      			}
+	
+			if(primeCounter == 2) return true;
+
+
+			else return false;
+
+		}
+	
+
+	}
 
 
 

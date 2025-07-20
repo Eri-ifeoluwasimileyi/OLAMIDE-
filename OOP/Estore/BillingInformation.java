@@ -1,0 +1,28 @@
+public class BillingInformation { // Billing information for delivery
+
+	private String receiverName;
+
+	private String receiverPhone;
+
+	private Address deliveryAddress;
+
+	private CreditCardInformation creditCardInfo;
+	
+
+
+
+	public BillingInformation(String receiverName, String receiverPhone, Address deliveryAddress, CreditCardInformation creditCardInfo) {
+
+		this.receiverName = receiverName;
+		
+		this.receiverPhone = receiverPhone;
+		
+		this.deliveryAddress = deliveryAddress;
+		
+		this.creditCardInfo = creditCardInfo;
+	}	
+
+
+
+
+}

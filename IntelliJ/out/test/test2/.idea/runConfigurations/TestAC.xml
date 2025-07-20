@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestAC" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="test2" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="AC.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="AC.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="AC" />
+    <option name="MAIN_CLASS_NAME" value="AC.TestAC" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
